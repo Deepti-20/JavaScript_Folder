@@ -1,0 +1,9 @@
+console.log("program start")
+setTimeout(() => {
+    console.log("inside setTimeout")
+}, 0)
+
+for (let i=1; i<=100; i++){
+    console.log("...")
+}
+console.log("program end")
